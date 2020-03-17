@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>
+        
+        </title>
+        
+        <link rel="stylesheet" href="stylesheet.css"> 
+    </head>
+    
+    
+    <body>
+        
+        <nav class="search">
+            
+            <ul class="topnav" id="dropdownClick">
+                 <li><a href="#work">Work</a></li>
+                
+                 <li><a href="#services">Services</a></li>
+                
+                 <li><a href="#contact">Contact</a></li>
+                
+                 <li class="topnav-right"><a href="#shop">Shop</a></li>
+                
+                <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+                
+                
+<!--
+      <li class="topnav-right"> <input type="text" placeholder="Im looking for..." name="search">
+      <button type="submit"></button></li>
+-->
+                
+                
+            </ul>
+            
+            
+        </nav>
+        
+        <div class="container" id="section-1-gradient">
+            <div class="row">
+                <div class="col-6">
+                    <div class="leftSide-col">
+                        <h1 class="large">Crazy Radness</h1>
+                        <h1 class="large">Made for developers</h1>
+                        
+                    </div>
+                    <form>
+                        <div class="leftSide-col">
+                            <h2>Username</h2>
+                            <input class="inputbox" name="username" type="text" placeholder="Username">
+                            <h2>Password</h2>
+                             <input class="inputbox" name="username" type="text" placeholder="Username">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-6">
+                    <div class="rightSide-col">
+                        <div class="videoContainer">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/uyaV_EWWRmo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <header>
+        <h1 class="section2header"> About us
+            </h1></header>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon"> 
+                        <img src="https://www.deluxe.com/sites/www.deluxe.com/files/logo_design/logo/large/logo-samples-32.png" width="120" height="120">
+                        </div>
+                        <label> Our legacy</label>
+                        <p>
+                            Since 1960, we've been providing services to over a million farmers all over the world.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon"> 
+                        <img src="https://www.deluxe.com/sites/www.deluxe.com/files/logo_design/logo/large/logo-samples-32.png" width="120" height="120">
+                        </div>
+                        <label> Our products</label>
+                        <p>
+                            Serving people with genuine products with lowest possible prices.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon"> 
+                        <img src="https://www.deluxe.com/sites/www.deluxe.com/files/logo_design/logo/large/logo-samples-32.png" width="120" height="120">
+                        </div>
+                        <label> Contact us</label>
+                        <p>
+                            Since 1960, we've been providing services to over a million farmers all over the world.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button class="learnMore">Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+            
+            <div class="col-7">
+                <article>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    </p></article>
+            </div>
+        <div class="col-5">
+            <div class="icon2">
+            <img src="https://www.deluxe.com/sites/www.deluxe.com/files/logo_design/logo/large/logo-samples-32.png" width="400" height="300">
+            </div>
+            
+            </div>
+                </div>
+        </div>
+        
+        <footer class="footsy">
+        <div class="row">
+            <div class="col-3 mobileStack">
+                <h1>Company
+                </h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+                <h1>Company
+                </h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+                <h1>Company
+                </h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+                <h1>Company
+                </h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            </div></footer>
+        <script>
+            function dropdownMenu(){
+                var x=document.getElementById("dropdownClick");
+                if(x.className==="topnav"){
+                    //space is added before responsive so that when the class appends there is a space between the 2 words topnav and responsive
+                x.className+=" responsive";
+                /*change topnav to topnav.responsive*/
+                }
+                else{
+                    x.className="topnav";
+                }
+            }
+        </script>
+    </body>
+    
+</html>
